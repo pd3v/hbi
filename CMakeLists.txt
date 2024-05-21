@@ -17,6 +17,6 @@ if (LINUX)
   set(CMAKE_CXX_COMPILER /usr/bin/g++)
 endif (LINUX)  
 
-project(hbi VERSION 0.0.1)
+project(hbi VERSION 0.0.2)
 
 add_executable("${PROJECT_NAME}" main.cpp)
